@@ -326,6 +326,7 @@
 //    float x = (height - width) / 2;
 
     // トリミング
+    // 高さを幅にすることで正方形にしている
     CGImageRef cgImage = CGImageCreateWithImageInRect(image, CGRectMake(0, 0, width, width));
     float scale = [[UIScreen mainScreen] scale];
     UIImage *trimImg = [UIImage imageWithCGImage:cgImage scale:scale orientation:UIImageOrientationRight];
@@ -440,6 +441,8 @@
 
                                                          // 押されたボタンにキャプチャした静止画を設定する
                                                          UIImage *originalImage = [[UIImage alloc] initWithData:data];
+                                                         NSLog(@"originalImage.size.height - %f", originalImage.size.height);
+                                                         NSLog(@"originalImage.size.width - %f", originalImage.size.width);
 
                                                          // 反転させる
                                                          float scale = [[UIScreen mainScreen] scale];
