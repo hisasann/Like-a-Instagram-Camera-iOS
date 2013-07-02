@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4649017E3F4E42509E74DF28"
+               BuildableName = "Like-a-Instagram-Camera.app"
+               BlueprintName = "Like-a-Instagram-Camera"
+               ReferencedContainer = "container:Like-a-Instagram-Camera.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4649017E3F4E42509E74DF28"
+            BuildableName = "Like-a-Instagram-Camera.app"
+            BlueprintName = "Like-a-Instagram-Camera"
+            ReferencedContainer = "container:Like-a-Instagram-Camera.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
